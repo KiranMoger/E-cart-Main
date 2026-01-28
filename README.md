@@ -16,23 +16,23 @@ React E-Mart is a medium-scale e-commerce frontend application built using React
 
 --------------------------------------------------
 
-📂 1️⃣ Project Folder Structure (Detailed Explanation)
-
 React-E-Mart/
 │
-├── index.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── node_modules/
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── components/
-    ├── pages/
-    ├── assets/
-    ├── styles/
-    └── data/
+├── index.html              // Main HTML entry file
+├── package.json            // Project metadata & dependencies
+├── package-lock.json       // Dependency lock file
+├── vite.config.js          // Vite configuration
+├── node_modules/           // Installed npm packages
+│
+└── src/                    // Application source code
+    ├── main.jsx            // React app entry point
+    ├── App.jsx             // Root React component
+    ├── components/         // Reusable UI components
+    ├── pages/              // Application pages (screens)
+    ├── assets/             // Images and static assets
+    ├── styles/             // CSS files
+    └── data/               // Mock/static data
+
 
 Root Level Files
 
